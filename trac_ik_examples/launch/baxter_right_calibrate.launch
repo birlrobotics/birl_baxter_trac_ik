@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <node name="baxter_trac_ik_test" pkg="trac_ik_examples" type="baxter_trac_ik" output="screen">
+  </node>
+   <node name="broadcast_test" pkg="trac_ik_examples" type="broadcast" output="screen">
+  </node>
+  <node name="listener_test" pkg="trac_ik_examples" type="listener" output="screen">
+  </node>
+
+
+
+</launch>
